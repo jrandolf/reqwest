@@ -209,7 +209,7 @@ wasm-bindgen-test = "0.3"
 # wasi: `wasi:http` 0.3 as the transport of the `wasm` client
 
 [target.'cfg(all(target_os = "wasi", not(target_env = "p1")))'.dependencies]
-wasip3 = { version = "0.9", features = ["http-compat"] }
+wasip3 = { version = "0.10", features = ["http-compat"] }
 http-body = "1"
 http-body-util = "0.1.2"
 futures-util = { version = "0.3.28", default-features = false }
